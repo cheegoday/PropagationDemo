@@ -1,5 +1,7 @@
 package com.sly.demo.transactional.mapper;
 
-public interface RoleMapper {
+import com.sly.demo.transactional.model.Role;
 
+public interface RoleMapper {
+	int add(Role role);
 }
