@@ -15,6 +15,8 @@ public interface DemoService {
 	Map<String, Object> mandatoryTest01();
 	
 	Map<String, Object> requiredNewTest01();
+	
+	Map<String, Object> requiredNewTest02();
 
 	Map<String, Object> notSupportTest01();
 	
